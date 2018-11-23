@@ -1,0 +1,636 @@
+@charset "UTF-8";
+/*
+********************************************    头部header  *********************************************
+*/
+header {
+  width: 100%;
+  margin: auto;
+}
+header a {
+  background: url(../images/index.png) no-repeat;
+}
+header .headTopArea {
+  width: 100%;
+  margin: auto;
+  line-height: 32px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+header .headTopArea .headTopRight {
+  float: right;
+  margin: 7px 0px 0 0px;
+}
+header .headTopArea .headTopRight .headTopRightGG {
+  width: 70px;
+  line-height: 18px;
+  float: left;
+  background: url(../images/notice.png) no-repeat;
+}
+header .headTopArea .headTopRight .headTopRightGG .gonggao {
+  width: 55px;
+  float: left;
+  padding-left: 26px;
+  background-position: 70px 20px;
+  text-align: left;
+  color: #808080;
+}
+header .headTopArea .headTopRight .headTopRightLink {
+  float: right;
+  margin-left: 10px;
+}
+header .headTopArea .headTopRight .headTopRightLink .weixin {
+  float: left;
+  background-position: -25px -25px;
+  width: 16px;
+  height: 20px;
+  position: relative;
+}
+header .headTopArea .headTopRight .headTopRightLink .weixin .erweixin {
+  display: none;
+  width: 148px;
+  height: 169px;
+  z-index: 999;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+  background-image: url(../images/weixin.png);
+  position: absolute;
+  top: 26px;
+  right: 0;
+}
+header .headTopArea .headTopRight .headTopRightLink .weixin:hover .erweixin {
+  display: block;
+}
+header .headTopArea .headTopRight .headTopRightLink .weibo {
+  float: left;
+  background-position: -50px -25px;
+  width: 16px;
+  height: 20px;
+  margin-left: 2px;
+}
+header .headTopArea .headTopLeft {
+  float: right;
+  letter-spacing: 1px;
+}
+header .headTopArea .headTopLeft .loginArea {
+  float: left;
+  color: #808080;
+}
+header .headTopArea .headTopLeft .loginArea span {
+  color: #808080;
+  display: inline-block;
+  width: 117px;
+  height: 16px;
+  margin-left: 10px;
+  text-align: center;
+  /*
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  */
+}
+header .headTopArea .headTopLeft .loginArea .login {
+  color: #808080;
+  background-position: 100px 0px;
+  display: inline-block;
+  width: 53px;
+  line-height: 16px;
+  text-align: left;
+}
+header .headTopArea .headTopLeft .loginArea .register {
+  color: #808080;
+  background-position: 100px 0px;
+  display: inline-block;
+  text-align: right;
+  width: 53px;
+  line-height: 16px;
+}
+header .headTopArea .headTopLeft .myShopArea {
+  float: left;
+  margin: 0 13px;
+}
+header .headTopArea .headTopLeft .myShopArea a {
+  color: #808080;
+  background-position: 100px 0px;
+}
+header .headSearch .SearchRight {
+  float: right;
+  margin-top: 30px;
+}
+header .headSearch .SearchRight .Search .inputSou {
+  width: 300px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+}
+header .headSearch .SearchRight .Search .souBtn {
+  width: 45px;
+  line-height: 32px;
+  color: white;
+  margin-left: -8px;
+  cursor: pointer;
+  background: #b81c22;
+}
+header .headSearch .SearchRight .Search .buyCar {
+  float: right;
+  background: #b81c22;
+  width: 100px;
+  height: 34px;
+  margin-left: 30px;
+  color: white;
+  text-align: center;
+}
+header .headSearch .SearchRight .Search .buyCar .carText {
+  margin: 10px 0 0 5px;
+}
+header .headSearch .SearchRight .Search .buyCar .carText a {
+  width: 65px;
+  float: left;
+  color: white;
+  text-align: right;
+  background-position: -160px -7px;
+}
+header .headSearch .SearchRight .Search .buyCar .carText .carNum {
+  margin-top: 10px;
+}
+header .headSearch .SearchRight .host div {
+  margin-top: 5px;
+  color: #808080;
+  margin-left: 20px;
+}
+header .headSearch .SearchRight .host div a {
+  background-position: -100px -40px;
+  color: #808080;
+  margin-left: 5px;
+}
+header .headNav .content .nav {
+  width: 100%;
+}
+header .headNav .content .nav .navul {
+  width: 100%;
+}
+header .headNav .content .nav .navul .navli {
+  float: left;
+  border-right: 1px solid #333;
+  text-align: center;
+  vertical-align: middle;
+  vertical-align: middle;
+  margin-top: 40px;
+  position: relative;
+}
+header .headNav .content .nav .navul .navli .nava {
+  color: #727171;
+  display: block;
+  width: 100px;
+  height: 100%;
+  background-position: 10px 50px;
+}
+header .headNav .content .nav .navul .navli:last-child {
+  border-right: none;
+}
+header .headNav .content .nav .navul .navli:nth-child(1) {
+  border-bottom: none;
+}
+header .headNav .content .nav .navul .logo {
+  border: none;
+  margin-top: 10px;
+}
+header .headNav .content .nav .navul .logo .nava {
+  background-position: 0px -60px;
+  width: 180px;
+  height: 50px;
+  text-align: right;
+  margin-top: 10px;
+}
+header .headNav .content .nav .navul .navTwoUl {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 10000;
+  background-color: white;
+  display: none;
+}
+header .headNav .content .nav .navul .navTwoUl li {
+  margin: 10px 0;
+}
+header .headNav .content .nav .navul .navTwoUl li a {
+  color: #727171;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: 100px 50px;
+}
+header .headNav .content .nav .navul .navTwoUl span {
+  display: block;
+  height: 5px;
+  width: 101px;
+  margin-top: 10px;
+}
+header .headNav .content .nav .navul .navTwoUl li:hover a {
+  color: #b81c22;
+}
+header .headNav .content .nav .navul .navli:hover .navTwoUl {
+  display: block;
+}
+header .headNav .content .nav .navul .navli:hover span {
+  background-color: #b81c22;
+}
+
+/*
+**********************************************    主体article  ************************************
+*/
+article {
+  width: 100%;
+  margin: auto;
+}
+article .banner {
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+  height: 600px;
+}
+article .banner .bannerBox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+article .banner .bannerBox li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+article .banner .bannerBox li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+article .banner .bannerBox li a img {
+  width: 100%;
+  height: 100%;
+}
+article .banner .bannerDisc {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+}
+article .banner .bannerDisc li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  float: left;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #abc;
+}
+article .banner .bannerDisc .current {
+  background-color: pink;
+}
+article .banner span {
+  background: url(../images/btn.png) no-repeat;
+}
+article .banner .banBtnLeft {
+  display: inline-block;
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  left: 10px;
+  top: 45%;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  background-position: 0px 0px;
+}
+article .banner .banBtnRight {
+  display: inline-block;
+  width: 50px;
+  cursor: pointer;
+  height: 60px;
+  position: absolute;
+  right: 10px;
+  top: 45%;
+  color: white;
+  text-align: center;
+  background-position: -40px 0px;
+}
+article .activeDiv {
+  width: 100%;
+}
+article .activeDiv li {
+  float: left;
+  background: url(../images/618.jpg) no-repeat;
+  height: 80px;
+  cursor: pointer;
+}
+article .activeDiv .activeDivC {
+  width: 70%;
+  background-position: 0px 0px;
+}
+article .activeDiv .activeDivD {
+  width: 30%;
+  background-position: -840px 0px;
+}
+article .activeRecom {
+  width: 100%;
+}
+article .activeRecom li {
+  float: left;
+  height: 50px;
+  background: url(../images/5.jpg) no-repeat;
+}
+article .activeRecom .activeA {
+  width: 70%;
+  background-position: 0 0;
+}
+article .activeRecom .activeMore {
+  width: 30%;
+  cursor: pointer;
+  background-position: -840px 0;
+}
+article .productShow {
+  width: 100%;
+  margin: auto;
+}
+article .productShow ul {
+  width: 100%;
+  margin: auto;
+}
+article .productShow ul li {
+  float: left;
+  margin-left: 30px;
+}
+article .productShow ul li a {
+  display: block;
+  width: 100%;
+}
+article .productShow ul li a img {
+  width: 100%;
+}
+article .productShow ul li a:hover {
+  transform: scale(1.01);
+}
+article .productShowKong h2 {
+  color: #9a9a9a;
+  text-align: center;
+  font-size: 18px;
+}
+article .chooseYou {
+  width: 100%;
+  margin: 40px auto;
+  box-sizing: border-box;
+}
+article .chooseYou li {
+  float: left;
+  margin-left: 10px;
+}
+article .chooseYou li a {
+  width: 100%;
+  display: block;
+}
+article .chooseYou li a img {
+  width: 100%;
+}
+article .chooseYou li h3 {
+  border: 1px solid #ccc;
+  border-top: none;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 25px;
+}
+article .chooseYou li h3 span {
+  color: #a10000;
+  display: block;
+  float: right;
+}
+article .chooseYou .chooseYouli {
+  margin-left: 0;
+}
+article .chooseYou .chooseYouTwo a {
+  display: block;
+  height: 50%;
+  width: 100%;
+}
+article .smallProduct {
+  width: 100%;
+  margin: 30px auto;
+}
+article .smallProduct li {
+  float: left;
+  margin-left: 15px;
+}
+article .smallProduct li a {
+  display: block;
+  width: 100%;
+}
+article .smallProduct li a img {
+  width: 100%;
+}
+article .smallProduct li h3 {
+  border: 1px solid #ccc;
+  border-top: none;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 25px 10px;
+}
+article .smallProduct li h3 span {
+  color: #a10000;
+  display: block;
+  float: right;
+}
+article .smallProduct li:hover {
+  transform: scale(1.01);
+}
+article .smallProduct .smallProductli {
+  margin-left: 0;
+}
+article .lifeProduct {
+  width: 100%;
+  margin: 30px auto;
+}
+article .lifeProduct li {
+  float: left;
+  margin-left: 15px;
+}
+article .lifeProduct li a {
+  display: block;
+  width: 100%;
+}
+article .lifeProduct li a img {
+  width: 100%;
+}
+article .lifeProduct .lifeProductli {
+  margin-left: 0;
+}
+article .lifeProduct li:hover {
+  transform: scale(1.01);
+}
+article .mainLine {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+article .mainLine .mainLineFirst li {
+  float: left;
+  width: 370px;
+  text-align: center;
+  margin: 50px auto;
+  border-right: 1px solid #ccc;
+}
+article .mainLine .mainLineFirst li a {
+  display: block;
+  width: 100%;
+  background-position: 500px 600px;
+  text-align: center;
+}
+article .mainLine .mainLineFirst li a p {
+  margin: 15px auto;
+}
+article .mainLine .mainLineFirst li a .onlineTime {
+  background-color: #b81c22;
+  color: white;
+  line-height: 32px;
+  margin: 0 auto;
+  width: 160px;
+}
+article .mainLine .mainLineFirst .seven a {
+  color: #727171;
+}
+article .mainLine .mainLineFirst .saoYiSao {
+  border: none;
+  margin-top: 20px;
+}
+article .mainLine .mainLineFirst .saoYiSao a {
+  color: #727171;
+}
+article .mainLine .mainLineFirst .saoYiSao a .codeSao {
+  width: 105px;
+  height: 105px;
+}
+article .mainLine .mainLineFirst .saoYiSao a .codeSao img {
+  width: 100%;
+  height: 100%;
+}
+article .mainLine .mainLineFirst .saoYiSao a em {
+  color: #a10000;
+  margin: 0;
+}
+article .mainLine .mainLineSed {
+  width: 100%;
+  margin: 30px auto;
+}
+article .mainLine .mainLineSed ul {
+  width: 100%;
+  margin-left: 5%;
+}
+article .mainLine .mainLineSed ul li {
+  float: left;
+  border-right: 1px solid #dadadb;
+  text-align: center;
+  background-color: #f8f8f8;
+  line-height: 50px;
+  width: 15%;
+}
+article .mainLine .mainLineSed ul li a {
+  color: #333;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: 500px 600px;
+}
+article .mainLine .mainLineSed ul .mainLineSedLastli {
+  border-right: none;
+}
+
+/*
+*********************************************    底部footer   *********************************************
+*/
+footer {
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid #333;
+}
+footer .fooetrFisrt {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  color: #3e3a39;
+}
+footer .fooetrFisrt p {
+  line-height: 25px;
+}
+footer .footerImg {
+  width: 100%;
+  margin: 0 auto;
+}
+footer .footerImg div {
+  margin: 20px 0 10px 200px;
+  padding-bottom: 60px;
+}
+footer .footerImg div a {
+  background: url(../images/index2.png) no-repeat;
+  display: block;
+  float: left;
+  margin-left: 21px;
+}
+footer .footerImg div .footerImg1 {
+  width: 113px;
+  height: 42px;
+  background-position: 0px -580px;
+}
+footer .footerImg div .footerImg2 {
+  width: 156px;
+  height: 45px;
+  background-position: 0px -629px;
+}
+footer .footerImg div .footerImg3 {
+  width: 96px;
+  height: 42px;
+  background-position: 0px -675px;
+}
+footer .footerImg div .footerImg4 {
+  width: 96px;
+  height: 42px;
+  background-position: -100px -675px;
+}
+footer .footerImg div .footerImg5 {
+  width: 50px;
+  height: 42px;
+  background-position: -200px -675px;
+}
+footer .footerImg div .footerImg6 {
+  width: 120px;
+  height: 40px;
+}
+footer .footerImg div .footerImg6 img {
+  width: 100%;
+  height: 100%;
+}
+
+/*
+**********************************************   回到顶部  ********************************************
+*/
+.toWindos {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 10;
+}
+.toWindos li {
+  background: url(../images/baywindow.png) no-repeat;
+}
+.toWindos .downAPP {
+  width: 75px;
+  height: 75px;
+  background-position: 0 0;
+}
+.toWindos .online {
+  width: 75px;
+  height: 72px;
+  background-position: 0 -77px;
+}
+.toWindos .BlackTop {
+  width: 75px;
+  height: 56px;
+  background-position: 0 -150px;
+}

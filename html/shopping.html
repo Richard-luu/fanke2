@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="../css/commo.css">
+    <link rel="stylesheet" href="../css/shopping.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <nav class="headTopArea f12">
+
+            <div class="content clearfix">
+
+                <div class="headTopRight clearfix">
+                    <div class="headTopRightGG">
+                        <a href="javascript:;" class="gonggao">网站公告</a>
+                    </div>
+                    <div class="headTopRightLink">
+                        <a href="javascript:;" class="weixin">
+                            <span></span>
+                            <div class="erweixin"></div>
+                        </a>
+                        <a href="javascript:;" class="weibo"></a>
+                    </div>
+                </div>
+
+                <div class="headTopLeft clearfix">
+                    <div class="loginArea">
+                        您好,
+                        <span id="loginUserName">欢迎光临凡客诚品！</span>
+                        <span>
+                            <a href="../html/login.html" class="login" id="quietLogin">登录</a>|
+                            <a href="../html/register.html" class="register" id="replaceUser">注册 </a>
+                        </span>
+                    </div>
+                    <div class="myShopArea">
+                        <a href="javascript:;">我的订单</a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- 页面所有a标签取消了默认行为 -->
+    <!-- 主体 -->
+    <article>
+        <div class="content">
+            <!-- 头部提示语 -->
+            <div class="myCar">
+                <div class="myCarImg">
+                    <img src="../images/car.png" alt=""> 我的购物车
+                </div>
+
+                <div class="myCarNotie f12">温馨提示：
+                    <span>1.选购清单中的商品无法保留库存，请您及时结算。2.商品的价格和库存将以订单提交时为准。3.促销活动满减优惠将均摊至商品小计中。</span>
+                </div>
+            </div>
+
+            <!-- 商品展示 -->
+            <div class="shoppingShow">
+                <table cellspacing="15px" id="tab" class="tab">
+                    <thead>
+                        <tr>
+                            <th class="title-white bd-left">
+                                &nbsp;
+                            </th>
+                            <th class="bar-title">
+                                <input id="allckbtop" type="checkbox" class="track track1">
+                                <label for="allckbtop" id="allckbtopText">全选</label>
+                            </th>
+                            <th class="image">
+                                &nbsp;
+                            </th>
+                            <th class="name">
+                                商品名称
+                            </th>
+                            <th class="size">
+                                尺寸
+                            </th>
+                            <th class="price">
+                                单价
+                            </th>
+                            <th class="qty">
+                                数量
+                            </th>
+                            <th class="discount">
+                                优惠
+                            </th>
+                            <th class="subtotal">
+                                小计
+                            </th>
+                            <th class="operate ">
+                                操作
+                            </th>
+                            <th class="">
+                                &nbsp;
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="vancl-product">
+                    </tbody>
+
+                    <!-- <tbody>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                    </tbody> -->
+                    <!-- <tbody id="supplier">
+                        <tr class="selected">
+                            <td class="white bd-left">
+                                &nbsp;
+                            </td>
+                            <td class="bar" rowspan="1">
+                                <input type="checkbox" class="track ckb" value="" checked="checked">
+                            </td>
+                            <td class="image">
+                                <a target="_blank"  href="javascript:;">
+                                    <img alt="针织裤 棉质针织锥形窄脚裤 男 黑色" src="../images/s11.jpg">
+                                </a>
+                            </td>
+                            <td class="name">
+                                <a  href="javascript:;" title="针织裤 棉质针织锥形窄脚裤 男 黑色">
+                                    针织裤 棉质针织锥形窄脚裤 男 黑色
+                                </a>
+                            </td>
+                            <td class="size">
+                                <a target="_blank" title="L">
+                                    L
+                                </a>
+                            </td>
+                            <td class="price">
+                                ￥38.00
+                            </td>
+                            <td class="sMun">
+                                <form method="get">
+                                    <a class="track"  href="javascript:;">-</a>
+                                    <input type="text" value="1" class="sMunShow">
+                                    <noscript>
+                                        <input type="submit" value="修改" />
+                                    </noscript>
+                                    <a class="increase"  href="javascript:;">+</a>
+                                </form>
+                            </td>
+                            <td>
+                                -0-
+                            </td>
+                            <td class="subtotal">
+                                ￥38.00
+                            </td>
+                            <td class="operate">
+                                <a class="del track"  href="javascript:;">
+                                    删除</a>
+                            </td>
+                            <td class="white">
+                                &nbsp;
+                            </td>
+                        </tr>
+                    </tbody> -->
+                </table>
+            </div>
+            <div class="NoShop">
+                您尚未购买商品哦!请去开心购物！
+            </div>
+            <div class="NoLogin">
+                您还没登录哦!请先登录！
+            </div>
+
+            <!-- 结算 -->
+            <div id="bar-summary" class="myCarShopping clearfix">
+                <div class="bar">
+                    <input type="checkbox" id="allckbbt" class="track1">
+                    <label for="allckbbt" id="allckbbtText">全选</label>
+                    <a href="javascript:;">
+                        删除</a>
+                    <span>数量总计：
+                        <em id="totalShop">0</em>&nbsp;件</span>
+                    <span>
+                        <em>
+                        </em>
+                    </span>
+                </div>
+                <div class="summary">
+
+                    产品金额总计(不含运费)：
+                    <span class="amount">￥
+                        <em id="totalShopNumPrice">0</em>
+                    </span>
+
+                </div>
+                <div class="btn-panel">
+                    <a href="../index.html" class="shoppingIng" id="shoppingIng">
+                        &lt;&lt;继续购物&nbsp;</a>
+                    <a href="javascript:;" class="shoppingEnd">
+                        &nbsp;去结算&gt;&gt;</a>
+                </div>
+            </div>
+
+        </div>
+
+    </article>
+
+
+    <!--   底部     -->
+    <footer>
+        <div class="content ">
+            <div class="fooetrFisrt f12 ">
+                <p> Copyright 2007 - 2018 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+                <p> 凡客诚品（北京）科技有限公司</p>
+            </div>
+            <div class="footerImg ">
+                <div>
+                    <a href="# " class="footerImg1 "></a>
+                    <a href="# " class="footerImg2 "></a>
+                    <a href="# " class="footerImg3 "></a>
+                    <a href="# " class="footerImg4 "></a>
+                    <a href="# " class="footerImg5 "></a>
+                    <a href="# " class="footerImg6 ">
+                        <img src="../images/kexin_brand_for_others.png " alt=" ">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/shopping.js"></script>
+</body>
+
+</html>

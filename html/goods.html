@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="../css/commo.css">
+    <link rel="stylesheet" href="../css/goods.css">
+</head>
+<script src="../js/jquery.min.js"></script>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <nav class="headTopArea f12">
+
+            <div class="content clearfix">
+
+                <div class="headTopRight clearfix">
+                    <div class="headTopRightGG">
+                        <a href="javascript:;" class="gonggao">网站公告</a>
+                    </div>
+                    <div class="headTopRightLink">
+                        <a href="javascript:;" class="weixin">
+                            <span></span>
+                            <div class="erweixin"></div>
+                        </a>
+                        <a href="javascript:;" class="weibo"></a>
+                    </div>
+                </div>
+
+                <div class="headTopLeft clearfix">
+                    <div class="loginArea">
+                        您好,
+                        <span id="loginUserName">欢迎光临凡客诚品！</span>
+                        <span>
+                            <a href="../html/login.html" class="login" id="quietLogin">登录</a>|
+                            <a href="../html/register.html" class="register" id="replaceUser">注册 </a>
+                        </span>
+                    </div>
+                    <div class="myShopArea">
+                        <a href="javascript:;">我的订单</a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <nav class="headSearch">
+            <div class="content clearfix">
+                <div class="SearchRight">
+                    <div class="Search clearfix">
+                        <input type="text" class="inputSou" placeholder="搜“日式免烫衬衫，体验与众不同,日式免烫衬衫" />
+                        <input type="button" class="souBtn" value="搜索" />
+                        <div class="buyCar f12">
+                            <div class="carText" id="toMyCar">
+                                <a href="javascript:;">购物车</a>
+                                <span class="carNum" id="carNum">(0)</span>
+                            </div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="host f12">
+                        <div>
+                            热门搜索:
+                            <a href="javascript:;">免烫衬衫</a>
+                            <a href="javascript:;">水柔棉</a>
+                            <a href="javascript:;">熊本熊</a>
+                            <a href="javascript:;">麻衬衫</a>
+                            <a href="javascript:;">帆布鞋</a>
+                            <a href="javascript:;">运动户外</a>
+                            <a href="javascript:;">家居</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="headNav">
+            <div class="content">
+                <div class="nav">
+                    <ul class="f16 clearfix navul">
+                        <li class="navli logo">
+                            <a href="javascript:;" class="nava"></a>
+                        </li>
+                        <li class="navli">
+                            <a href="javascript:void(0)" class="nava navsy" id="returnToIndex1">首页</a>
+                        </li>
+                        <li class="navli">
+                            <a href="javascript:;" class="nava">衬衫</a>
+                            <ul class="navTwoUl">
+                                <span></span>
+                                <li>
+                                    <a href="javascript:;"> 免烫</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">易打理</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">休闲</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">高支</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">法兰绒</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">牛津纺</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">青年布</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">牛仔</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">麻</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">水洗棉</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">泡泡纱</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navli">
+                            <a href="# " class="nava">T恤</a>
+                            <ul class="navTwoUl">
+                                <span></span>
+                                <li>
+                                    <a href="javascript:;">水柔棉</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">长袖T恤</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">熊本熊</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">全棉冰爽</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">POLO衫</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">字</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">复刻系列</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">山鸟叔</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">小宇宙</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">电影台词</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">科学怪人</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">运动T恤</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">花花公子</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navli">
+                            <a href="# " class="nava">卫衣</a>
+                            <ul class="navTwoUl">
+                                <span></span>
+                                <li>
+                                    <a href="javascript:;">熊本熊</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">开衫</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">连帽</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">圆领</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">水柔棉</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navli">
+                            <a href="# " class="nava">外套</a>
+                            <ul class="navTwoUl">
+                                <span></span>
+                                <li>
+                                    <a href="javascript:;">运动户外</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">皮肤衣</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">西服</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">C9设计款</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">夹克</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">nautilus</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">大衣</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">羽绒服</a>
+                                </li>
+                            </ul>
+                            <li class="navli">
+                                <a href="# " class="nava">针织衫</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">空调衫</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">棉线衫</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">羊毛衫</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navli">
+                                <a href="# " class="nava">裤装</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">沙滩裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">针织裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">休闲裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">仔裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">运动裤</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navli">
+                                <a href="# " class="nava">鞋</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">复古跑鞋</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">帆布鞋</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">休闲鞋</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navli">
+                                <a href="# " class="nava">家居配饰</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">床品套件</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">被子</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">枕</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">家居服</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">家居鞋</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">背提包</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">拉杆箱</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">皮带钱包</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">帽子</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">毛巾</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navli">
+                                <a href="# " class="nava">内衣袜品</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">船袜</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">中筒袜</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">连裤袜</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">内衣裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">围巾披肩</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">童装</a>
+                                    </li>
+                                </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- 主体 -->
+    <!-- a标签已经取消了默认行为 -->
+    <article>
+        <div class="content">
+            <div class="breadNav">
+                <a href="javascript:void(0)" title="首页" name="nav " id="returnToIndex2">
+                    首页</a>
+                <span>&gt;</span>
+                <a href="javascript:;" title="男装">
+                    男装 </a>
+                <span>&gt;</span>
+                <a href="javascript:;" title="牛仔裤">
+                    牛仔裤</a>
+                <span>&gt;</span>
+                <a href="javascript:;" title="男士牛仔裤">
+                    男士牛仔裤</a>
+                <span>&gt;</span>
+                <a href="javascript:;" title="牛仔长裤">
+                    牛仔长裤</a>
+                <span>&gt;</span>
+                &nbsp;
+                <span id="styleinfo " name="1068132 ">
+                    牛仔裤 弹力休闲直筒裤</span>
+            </div>
+
+            <div class="danpinTitleTab clearfix">
+                <h2 title="牛仔裤 弹力休闲直筒裤">
+
+                    牛仔裤 弹力休闲直筒裤
+                    <span>
+                        充值购买更优惠</span>
+                </h2>
+
+                <ul class="ProductSubnav clearfix">
+
+                    <li>
+                        <a href="javascript:;">产品描述</a>|</li>
+                    <li>
+                        <a href="javascript:;">评论</a>|</li>
+                    <li>
+                        <a href="javascript:;">提问</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mainInfo clearfix">
+                <div class="smallImg">
+                    <ul id="showImgUl">
+                        <li class="track1 trackCommo">
+                            <span>&nbsp;</span>
+                        </li>
+
+                        <li class="track2 trackCommo">
+                            <span>&nbsp;</span>
+                        </li>
+
+                        <li class="track3 trackCommo">
+                            <span>&nbsp;</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="danpinColCenter">
+                    <div class="bigImg" id="bigImg">
+                        <img src="../images/0000011.jpg" alt="">
+                        <span id="filter"></span>
+                    </div>
+                </div>
+
+                <div class="showBigImg" id="showBigImgDiv">
+                    <img src="../images/0000011.jpg" alt="" id="showBigImgDivImg">
+                </div>
+
+                <div class="danpinRight">
+                    <div class="danpinRightTop">
+                        <span class="span1 f12">
+                            <span>特惠价:</span>
+                            <span>
+                                ￥
+                                <strong>38.00</strong>
+                            </span>
+                        </span>
+                        <a href="javascript:;">充100返100，点击充值</a>
+                    </div>
+                    <div class="danpinRightColor clearfix">
+                        <p>颜色：</p>
+                        <ul class="clearfix" id="chooseColor">
+                            <li class="chooseColorli" id="chooseColorli">
+                                <span class="span1"></span>蓝色
+                            </li>
+                            <li class="noneGoods">
+                                <span class="span2"></span>黑色
+                                <p>无货</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="danpinRightSize clearfix">
+                        <p>尺码：</p>
+                        <ul class="f12 clearfix" id="chooseSize">
+                            <li>
+                                L
+                            </li>
+                            <li>
+                                M
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="danpinRightSum clearfix">
+                        <p>数量：</p>
+                        <select name="" id="shopSum">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+
+                    <div class="danpinRightBuy clearfix">
+                        <a href="javascript:;" id="shopNow"> 立即购买</a>
+                        <a href="javascript:;" class="inCar">加入购物车</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <script>
+
+               var reg = /[0-9]/g;
+    var gidStr = (decodeURI(decodeURI(window.location.href)).split("?")[1]).split('=')[0].trim().match(reg).join('');
+    var gidStrVal = (decodeURI(decodeURI(window.location.href)).split("?")[1]).split('=')[1].trim().match(reg).join('');
+    var str = 'goods';
+    var gidStrDb = str + gidStr;
+    var gidStrMun = 'g' + gidStr + 'id';
+    // console.log(gidStrDb);
+    var arr = [];
+    $.ajax(
+        {
+            type: 'get',
+            url: '../php/goods.php',
+            data: { gid: gidStrDb, gidVal: gidStrVal, gidMun: gidStrMun },
+            success: function (res) {
+                arr = JSON.parse(res);
+                var strImg = arr[0].spanBack;
+                var strShowImg = arr[0].showImg2;
+                if (strImg && strShowImg) {
+                    $('#showImgUl>.trackCommo>span').css({
+                        background: "url(" + strImg + ")"
+                    });
+                    $('#showImgUl>.track2>span').css(
+                        'backgroundPosition', '0px -68px'
+                    );
+                    $('#showImgUl>.track3>span').css(
+                        'backgroundPosition', '0px -136px'
+                    );
+                    // $('#bigImg>img').removeAttr('src').attr({ src: strShowImg });
+                    $('#bigImg>img').attr({ src: strShowImg });
+                    $('#showBigImgDiv>img').removeAttr('src').attr({ src: arr[0].showImg2 });
+                    imgId = $('#bigImg>img').attr('src');
+                }
+                else {
+                    imgId = 0;
+                }
+            }
+        }
+    );
+            </script> -->
+
+        </div>
+
+    </article>
+
+
+    <!--   底部     -->
+    <footer>
+        <div class="content ">
+            <div class="fooetrFisrt f12 ">
+                <p> Copyright 2007 - 2018 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+                <p> 凡客诚品（北京）科技有限公司</p>
+            </div>
+            <div class="footerImg ">
+                <div>
+                    <a href="# " class="footerImg1 "></a>
+                    <a href="# " class="footerImg2 "></a>
+                    <a href="# " class="footerImg3 "></a>
+                    <a href="# " class="footerImg4 "></a>
+                    <a href="# " class="footerImg5 "></a>
+                    <a href="# " class="footerImg6 ">
+                        <img src="../images/kexin_brand_for_others.png " alt=" ">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/goods.js" charset="UTF-8"></script>
+</body>
+
+</html>

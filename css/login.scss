@@ -1,0 +1,339 @@
+/*
+顶部
+*/
+header{
+    width: 100%;
+    margin: auto;
+    .loginHeader{
+        width: 100%;
+        margin-top: 15px; 
+        border-bottom: 1px solid black;
+        a{
+            display: block;
+            width: 187px;
+            height: 100%;
+            margin-bottom: 10px;
+            float: left;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        };
+        p{
+            float: right;
+            margin: 25px 5px 0 0;
+
+            a{
+                color: black;
+                text-align: right;
+            }
+        }
+    }
+}
+
+/*
+主体
+*/
+article{
+    width: 100%;
+    margin: auto;
+    .mainNav{
+        width: 100%;
+        margin:50px auto 10px;
+        h3{
+            font-size: 22px;
+            color: #979797;
+            font-weight:  bolder;
+            text-align: right;
+            margin:0 100px 0 0;
+            span{
+                font-size: 14px;
+                font-weight: normal;
+                a{
+                    color: #b42025;
+                }
+            }
+        }
+    };
+
+    .mainFooter{
+        .mainLogo{
+            margin-left: 150px;
+            float: left;
+        };
+
+        .mainLogin{
+            border: 1px solid #D1D1D1;
+            margin: 10px 100px 0 0;
+            float: right;
+
+            .mainLoginTab{
+                border-bottom: 1px solid #cbcbcb;
+                ul{
+                    li{
+                        float: left;
+                        width: 200px;
+                        height: 35px;
+                        line-height: 35px;
+                        text-align: center;
+                        background: #f5f5f5;
+                        color: #656565;
+                        cursor: pointer;
+                    };
+                    .on{
+                        background-color: #b42025;
+                        color: white;
+                    }
+                }
+            };
+
+            .mainLoginIn{
+                width: 100%;
+
+                .mainUser,.mainPwd{
+                    width: 100%;
+                    position: relative;
+                    margin-top: 30px;
+
+                    .tips{
+                        width: 150px;
+                        line-height: 16px;
+                        color: #A10000;
+                        text-indent: 30px;
+                        background-color: #FFF6F7;
+                        border: 1px solid #CC9998;
+                        margin: 0px auto;
+                        font-size: 10px;
+                        display: none;
+                    };
+
+                    .tips1{
+                        position: absolute;
+                        top: -25px;
+                        left: 20px;
+                    };
+
+                    .tips2,.tipstwo{
+                        position: absolute;
+                        top: 50px;
+                        left: 20px;
+                    };
+                    .tipstwo{
+                        width: 290px;
+                    }
+
+                    .newtxt{
+                        height: 45px;
+                        width: 90%;
+                        border: solid 1px #cbcbcb;
+                        margin: 20px auto;
+                   
+                        .inputtextcolor{
+                            height: 45px;
+                            line-height: 45px;
+                            color: #656565;
+                            width: 100%;
+                        }
+                    }
+                };
+
+                .mainLoginBtn{
+                    margin-top: 30px;
+                    a{
+                        width: 100%;
+                        display: block;
+                        height: 45px;
+                        line-height: 45px;
+                        background: #b42025;
+                        color: #fff;
+                        text-align: center;
+                        font-size: 20px
+                    }
+                }
+            };
+
+            .quickLogin{
+                display: none;
+                width: 100%;
+
+                .newtxt{
+                    height: 47px;
+                    width: 400px;
+                    margin: 10px auto;
+               
+                    .phone{
+                        height: 45px;
+                        line-height: 45px;
+                        color: #656565;
+                        width: 250px;
+                        float: left;
+                        border: solid 1px #cbcbcb;
+                        margin-left: 20px;
+                    };
+                    .getPhone{
+                        display: block;
+                        float: right;
+                        height: 45px;
+                        line-height: 45px;
+                        width: 90px;
+                        text-align: center;
+                        background: #f5f5f5;
+                        color: #b52024;
+                        border: solid 1px #cbcbcb;
+                        margin-right: 20px;
+                        font-weight: bolder;
+                    }
+                };
+
+                .asPhoneregBtn{
+                        width: 150px;
+                        line-height: 16px;
+                        color: #A10000;
+                        text-indent: 20px;
+                        background-color: #FFF6F7;
+                        border: 1px solid #CC9998;
+                        margin: 10px auto;
+                        display: none;
+                };
+
+                .newtxtTwo{
+                    height: 47px;
+                    width: 370px;
+                    margin: 10px auto;
+               
+                    .inputPhone{
+                        height: 45px;
+                        line-height: 45px;
+                        color: #656565;
+                        width: 100%;
+                        border: solid 1px #cbcbcb;
+                        margin: 0 auto;
+                    }
+                };
+
+                .mainLoginBtn{
+                    a{
+                        width: 100%;
+                        display: block;
+                        height: 45px;
+                        line-height: 45px;
+                        background: #b42025;
+                        color: #fff;
+                        text-align: center;
+                        font-size: 20px
+                    }
+                }
+            };
+
+            .mainLoginLink{
+                width: 400px;
+                height: 80px;
+                h2{
+                    width: 360px;
+                    color: #a4a4a4;
+                    line-height: 14px;
+                    font-size: 14px;
+                    font-weight: bolder;
+                    margin: 20px 0 10px 20px;
+                };
+                a{
+                    display: block;
+                    float: left;
+                    width: 33px;
+                    height: 33px;
+                    margin-left: 20px;
+                    background: url(../images/logos.jpg) no-repeat;
+                };
+                .mainLoginLink1{
+                    background-position: -145px 0;
+                };
+                .mainLoginLink2{
+                    background-position: -46px 0;
+                };
+                .mainLoginLink3{
+                    background-position: -185px 0;
+                };
+                .mainLoginLink4{
+                    background-position: -227px 0;
+                };
+                .mainLoginLink5{
+                    width: 36px;
+                    background-position: -96px 0;
+                }
+            }
+            
+        }
+
+    }
+}
+
+
+/*
+底部
+*/
+footer{
+    width: 100%;
+    margin: 20px auto;
+
+    .fooetrFisrt{
+        border-top: 1px solid #999;
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+        color: #999999;
+        p{
+            line-height: 25px;
+            margin-top: 20px;
+        }
+    };
+
+    .footerImg{
+        width: 100%;
+        margin: 0 auto;
+        div{
+            margin: 30px 0 10px 320px;
+            padding-bottom: 60px;
+
+            a{
+                background: url(../images/index2.png) no-repeat;
+                display: block;
+                float: left;
+                margin-left: 21px;
+            };
+            .footerImg1{
+                width: 113px;
+                height: 42px;
+                background-position: 0px -580px;
+            };
+            .footerImg2{
+                width: 156px;
+                height: 45px;
+                background-position: 0px -629px;
+            };
+            .footerImg3{
+                width: 96px;
+                height: 42px;
+                background-position: 0px -675px;
+            };
+            .footerImg4{
+                width: 96px;
+                height: 42px;
+                background-position: -100px -675px;
+            };
+            .footerImg5{
+                width: 50px;
+                height: 42px;
+                background-position: -200px -675px;
+            };
+            .footerImg6{
+                width: 120px;
+                height: 40px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }  
+        }  
+    };
+}
+

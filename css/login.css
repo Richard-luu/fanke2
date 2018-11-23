@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/*
+顶部
+*/
+header {
+  width: 100%;
+  margin: auto;
+}
+header .loginHeader {
+  width: 100%;
+  margin-top: 15px;
+  border-bottom: 1px solid black;
+}
+header .loginHeader a {
+  display: block;
+  width: 187px;
+  height: 100%;
+  margin-bottom: 10px;
+  float: left;
+}
+header .loginHeader a img {
+  width: 100%;
+  height: 100%;
+}
+header .loginHeader p {
+  float: right;
+  margin: 25px 5px 0 0;
+}
+header .loginHeader p a {
+  color: black;
+  text-align: right;
+}
+
+/*
+主体
+*/
+article {
+  width: 100%;
+  margin: auto;
+}
+article .mainNav {
+  width: 100%;
+  margin: 50px auto 10px;
+}
+article .mainNav h3 {
+  font-size: 22px;
+  color: #979797;
+  font-weight: bolder;
+  text-align: right;
+  margin: 0 100px 0 0;
+}
+article .mainNav h3 span {
+  font-size: 14px;
+  font-weight: normal;
+}
+article .mainNav h3 span a {
+  color: #b42025;
+}
+article .mainFooter .mainLogo {
+  margin-left: 150px;
+  float: left;
+}
+article .mainFooter .mainLogin {
+  border: 1px solid #D1D1D1;
+  margin: 10px 100px 0 0;
+  float: right;
+}
+article .mainFooter .mainLogin .mainLoginTab {
+  border-bottom: 1px solid #cbcbcb;
+}
+article .mainFooter .mainLogin .mainLoginTab ul li {
+  float: left;
+  width: 200px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background: #f5f5f5;
+  color: #656565;
+  cursor: pointer;
+}
+article .mainFooter .mainLogin .mainLoginTab ul .on {
+  background-color: #b42025;
+  color: white;
+}
+article .mainFooter .mainLogin .mainLoginIn {
+  width: 100%;
+}
+article .mainFooter .mainLogin .mainLoginIn .mainUser, article .mainFooter .mainLogin .mainLoginIn .mainPwd {
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+article .mainFooter .mainLogin .mainLoginIn .mainUser .tips, article .mainFooter .mainLogin .mainLoginIn .mainPwd .tips {
+  width: 150px;
+  line-height: 16px;
+  color: #A10000;
+  text-indent: 30px;
+  background-color: #FFF6F7;
+  border: 1px solid #CC9998;
+  margin: 0px auto;
+  font-size: 10px;
+  display: none;
+}
+article .mainFooter .mainLogin .mainLoginIn .mainUser .tips1, article .mainFooter .mainLogin .mainLoginIn .mainPwd .tips1 {
+  position: absolute;
+  top: -25px;
+  left: 20px;
+}
+article .mainFooter .mainLogin .mainLoginIn .mainUser .tips2, article .mainFooter .mainLogin .mainLoginIn .mainUser .tipstwo, article .mainFooter .mainLogin .mainLoginIn .mainPwd .tips2, article .mainFooter .mainLogin .mainLoginIn .mainPwd .tipstwo {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+article .mainFooter .mainLogin .mainLoginIn .mainUser .tipstwo, article .mainFooter .mainLogin .mainLoginIn .mainPwd .tipstwo {
+  width: 290px;
+}
+article .mainFooter .mainLogin .mainLoginIn .mainUser .newtxt, article .mainFooter .mainLogin .mainLoginIn .mainPwd .newtxt {
+  height: 45px;
+  width: 90%;
+  border: solid 1px #cbcbcb;
+  margin: 20px auto;
+}
+article .mainFooter .mainLogin .mainLoginIn .mainUser .newtxt .inputtextcolor, article .mainFooter .mainLogin .mainLoginIn .mainPwd .newtxt .inputtextcolor {
+  height: 45px;
+  line-height: 45px;
+  color: #656565;
+  width: 100%;
+}
+article .mainFooter .mainLogin .mainLoginIn .mainLoginBtn {
+  margin-top: 30px;
+}
+article .mainFooter .mainLogin .mainLoginIn .mainLoginBtn a {
+  width: 100%;
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  background: #b42025;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+article .mainFooter .mainLogin .quickLogin {
+  display: none;
+  width: 100%;
+}
+article .mainFooter .mainLogin .quickLogin .newtxt {
+  height: 47px;
+  width: 400px;
+  margin: 10px auto;
+}
+article .mainFooter .mainLogin .quickLogin .newtxt .phone {
+  height: 45px;
+  line-height: 45px;
+  color: #656565;
+  width: 250px;
+  float: left;
+  border: solid 1px #cbcbcb;
+  margin-left: 20px;
+}
+article .mainFooter .mainLogin .quickLogin .newtxt .getPhone {
+  display: block;
+  float: right;
+  height: 45px;
+  line-height: 45px;
+  width: 90px;
+  text-align: center;
+  background: #f5f5f5;
+  color: #b52024;
+  border: solid 1px #cbcbcb;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+article .mainFooter .mainLogin .quickLogin .asPhoneregBtn {
+  width: 150px;
+  line-height: 16px;
+  color: #A10000;
+  text-indent: 20px;
+  background-color: #FFF6F7;
+  border: 1px solid #CC9998;
+  margin: 10px auto;
+  display: none;
+}
+article .mainFooter .mainLogin .quickLogin .newtxtTwo {
+  height: 47px;
+  width: 370px;
+  margin: 10px auto;
+}
+article .mainFooter .mainLogin .quickLogin .newtxtTwo .inputPhone {
+  height: 45px;
+  line-height: 45px;
+  color: #656565;
+  width: 100%;
+  border: solid 1px #cbcbcb;
+  margin: 0 auto;
+}
+article .mainFooter .mainLogin .quickLogin .mainLoginBtn a {
+  width: 100%;
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  background: #b42025;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+article .mainFooter .mainLogin .mainLoginLink {
+  width: 400px;
+  height: 80px;
+}
+article .mainFooter .mainLogin .mainLoginLink h2 {
+  width: 360px;
+  color: #a4a4a4;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: bolder;
+  margin: 20px 0 10px 20px;
+}
+article .mainFooter .mainLogin .mainLoginLink a {
+  display: block;
+  float: left;
+  width: 33px;
+  height: 33px;
+  margin-left: 20px;
+  background: url(../images/logos.jpg) no-repeat;
+}
+article .mainFooter .mainLogin .mainLoginLink .mainLoginLink1 {
+  background-position: -145px 0;
+}
+article .mainFooter .mainLogin .mainLoginLink .mainLoginLink2 {
+  background-position: -46px 0;
+}
+article .mainFooter .mainLogin .mainLoginLink .mainLoginLink3 {
+  background-position: -185px 0;
+}
+article .mainFooter .mainLogin .mainLoginLink .mainLoginLink4 {
+  background-position: -227px 0;
+}
+article .mainFooter .mainLogin .mainLoginLink .mainLoginLink5 {
+  width: 36px;
+  background-position: -96px 0;
+}
+
+/*
+底部
+*/
+footer {
+  width: 100%;
+  margin: 20px auto;
+}
+footer .fooetrFisrt {
+  border-top: 1px solid #999;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  color: #999999;
+}
+footer .fooetrFisrt p {
+  line-height: 25px;
+  margin-top: 20px;
+}
+footer .footerImg {
+  width: 100%;
+  margin: 0 auto;
+}
+footer .footerImg div {
+  margin: 30px 0 10px 320px;
+  padding-bottom: 60px;
+}
+footer .footerImg div a {
+  background: url(../images/index2.png) no-repeat;
+  display: block;
+  float: left;
+  margin-left: 21px;
+}
+footer .footerImg div .footerImg1 {
+  width: 113px;
+  height: 42px;
+  background-position: 0px -580px;
+}
+footer .footerImg div .footerImg2 {
+  width: 156px;
+  height: 45px;
+  background-position: 0px -629px;
+}
+footer .footerImg div .footerImg3 {
+  width: 96px;
+  height: 42px;
+  background-position: 0px -675px;
+}
+footer .footerImg div .footerImg4 {
+  width: 96px;
+  height: 42px;
+  background-position: -100px -675px;
+}
+footer .footerImg div .footerImg5 {
+  width: 50px;
+  height: 42px;
+  background-position: -200px -675px;
+}
+footer .footerImg div .footerImg6 {
+  width: 120px;
+  height: 40px;
+}
+footer .footerImg div .footerImg6 img {
+  width: 100%;
+  height: 100%;
+}

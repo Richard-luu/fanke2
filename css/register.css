@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/*
+顶部
+*/
+header {
+  width: 100%;
+  margin: auto; }
+  header .loginHeader {
+    width: 100%;
+    margin-top: 15px;
+    border-bottom: 1px solid black; }
+    header .loginHeader a {
+      display: block;
+      width: 187px;
+      height: 100%;
+      margin-bottom: 10px;
+      float: left; }
+      header .loginHeader a img {
+        width: 100%;
+        height: 100%; }
+    header .loginHeader p {
+      float: right;
+      margin: 25px 5px 0 0; }
+      header .loginHeader p a {
+        color: black;
+        text-align: right; }
+
+/*
+主体
+*/
+article {
+  width: 100%;
+  margin: auto; }
+  article .mainNav {
+    width: 100%;
+    margin: 50px auto 10px; }
+    article .mainNav h3 {
+      font-size: 20px;
+      color: #a2a2a2;
+      font-weight: bolder;
+      text-align: right;
+      margin: 0 100px 0 0;
+      float: right;
+      width: 405px;
+      line-height: 35px;
+      border-bottom: 2px solid #b81e20; }
+      article .mainNav h3 span {
+        font-size: 14px;
+        font-weight: normal; }
+        article .mainNav h3 span a {
+          color: #b42025; }
+  article .mainFooter .mainLogo {
+    margin-left: 150px;
+    float: left; }
+  article .mainFooter .mainLogin {
+    margin-right: 100px;
+    float: right; }
+    article .mainFooter .mainLogin .mainLoginUl {
+      width: 400px;
+      height: 40px; }
+      article .mainFooter .mainLogin .mainLoginUl li {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px; }
+        article .mainFooter .mainLogin .mainLoginUl li input {
+          width: 100%;
+          height: 100%;
+          border: 1px solid #cbcbcb; }
+      article .mainFooter .mainLogin .mainLoginUl .phoneYZM {
+        width: 100%;
+        height: 100%; }
+        article .mainFooter .mainLogin .mainLoginUl .phoneYZM .phoneYZMInput {
+          width: 270px;
+          height: 100%;
+          float: left;
+          border: 1px solid #cbcbcb; }
+        article .mainFooter .mainLogin .mainLoginUl .phoneYZM a {
+          width: 100px;
+          font-size: 12px;
+          height: 40px;
+          text-align: center;
+          line-height: 45px;
+          background: #f5f5f5;
+          color: #b52024;
+          border: solid 1px #cbcbcb;
+          display: block;
+          float: left;
+          margin: 0 0 0 20px;
+          font-weight: bolder; }
+      article .mainFooter .mainLogin .mainLoginUl .userNameLogin {
+        position: relative; }
+        article .mainFooter .mainLogin .mainLoginUl .userNameLogin .error_user {
+          color: #cbcbcb;
+          display: none; }
+        article .mainFooter .mainLogin .mainLoginUl .userNameLogin .succ_user {
+          position: absolute;
+          top: 12px;
+          left: 370px;
+          color: green;
+          display: none; }
+        article .mainFooter .mainLogin .mainLoginUl .userNameLogin .repeat_user {
+          position: absolute;
+          top: 12px;
+          right: 10px;
+          color: red;
+          display: none; }
+      article .mainFooter .mainLogin .mainLoginUl .pwdLogin {
+        position: relative; }
+        article .mainFooter .mainLogin .mainLoginUl .pwdLogin .pwdError {
+          color: #cbcbcb;
+          display: none; }
+        article .mainFooter .mainLogin .mainLoginUl .pwdLogin .succ_pwd {
+          position: absolute;
+          top: 12px;
+          left: 370px;
+          color: green;
+          display: none; }
+      article .mainFooter .mainLogin .mainLoginUl .readService input {
+        display: block;
+        width: 17px;
+        height: 17px;
+        float: left;
+        background: #f5f5f5; }
+      article .mainFooter .mainLogin .mainLoginUl .readService p {
+        float: left;
+        width: 40px;
+        text-align: center; }
+      article .mainFooter .mainLogin .mainLoginUl .readService a {
+        display: block;
+        width: 170px;
+        float: left;
+        text-align: center;
+        font-size: 12px;
+        color: #b52024; }
+      article .mainFooter .mainLogin .mainLoginUl .registerli {
+        margin-top: 0px; }
+        article .mainFooter .mainLogin .mainLoginUl .registerli .registerIN {
+          color: white;
+          background-color: #9A9A9A; }
+
+/*
+底部
+*/
+footer {
+  width: 100%;
+  margin: 70px auto; }
+  footer .fooetrFisrt {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    color: #999999; }
+    footer .fooetrFisrt p {
+      line-height: 25px;
+      margin-top: 20px; }
+  footer .footerImg {
+    width: 100%;
+    margin: 0 auto; }
+    footer .footerImg div {
+      margin: 20px 0 10px 320px;
+      padding-bottom: 60px; }
+      footer .footerImg div a {
+        background: url(../images/index2.png) no-repeat;
+        display: block;
+        float: left;
+        margin-left: 21px; }
+      footer .footerImg div .footerImg1 {
+        width: 113px;
+        height: 42px;
+        background-position: 0px -580px; }
+      footer .footerImg div .footerImg2 {
+        width: 156px;
+        height: 45px;
+        background-position: 0px -629px; }
+      footer .footerImg div .footerImg3 {
+        width: 96px;
+        height: 42px;
+        background-position: 0px -675px; }
+      footer .footerImg div .footerImg4 {
+        width: 96px;
+        height: 42px;
+        background-position: -100px -675px; }
+      footer .footerImg div .footerImg5 {
+        width: 50px;
+        height: 42px;
+        background-position: -200px -675px; }
+      footer .footerImg div .footerImg6 {
+        width: 120px;
+        height: 40px; }
+        footer .footerImg div .footerImg6 img {
+          width: 100%;
+          height: 100%; }

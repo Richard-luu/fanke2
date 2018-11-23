@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        凡客诚品 - 会员登录
+    </title>
+    <link rel="stylesheet" href="../css/commo.css">
+    <link rel="stylesheet" href="../css/register.css">
+
+</head>
+<!-- 页面所有a标签取消了默认行为 -->
+
+<body>
+    <header>
+        <div class="content">
+            <div class="loginHeader clearfix f12">
+                <a href="../index.html">
+                    <img src="../images/logo_new.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="content">
+            <div class="mainNav clearfix">
+                <h3>
+                    注册新用户 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>我已经注册，现在就
+                        <a href="../html/login.html">登录</a>
+                    </span>
+                </h3>
+            </div>
+            <div class="mainFooter clearfix">
+                <div class="mainLogo">
+                    <img src="../images/login120412_newlogo.jpg" alt="">
+                </div>
+                <div class="mainLogin">
+                    <ul class="mainLoginUl">
+                        <li class="phoneYZM clearfix">
+                            <input type="text" placeholder="请输入手机号" class="phoneYZMInput f14">
+                            <a href="javascript:;">获取短信验证码</a>
+                        </li>
+                        <li>
+                            <input type="text" placeholder="填写手机验证码" class="inputPhoneYZM">
+                        </li>
+                        <li class="userNameLogin">
+                            <input type="text" placeholder="设置用户名" id="userNameRegister">
+                            <p class="f12 error_user" id="error_user">请设置用户名，2~20位，由字母、数字和中文组成</p>
+                            <p id="succ_user" class="f12 succ_user">可用</p>
+                            <p id="repeat_user" class="f12 repeat_user">用户名已存在</p>
+                        </li>
+                        <li class="pwdLogin">
+                            <input type="password" placeholder="设置登录密码" id="pwdRegister">
+                            <p class="pwdError f12" id="error_pwd">请设置密码, 6~20位，不包含空格字符</p>
+                            <p id="succ_pwd" class="f12 succ_pwd">可用</p>
+                        </li>
+                        <li class="readService clearfix f12">
+                            <input type="checkbox" id="checkboxFanke">
+                            <p>请阅读</p>
+                            <a href="javascript:;">
+                                《VANCL凡客诚品服务条款》
+                            </a>
+                        </li>
+                        <li class="registerli">
+                            <input type="button" value="注册" class="registerIN f16" id="registerIN">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </article>
+
+    <footer>
+        <div class="content ">
+            <div class="fooetrFisrt f12">
+                <p> Copyright 2007 - 2018 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+
+            </div>
+            <div class="footerImg">
+                <div>
+                    <a href="javascript:;" class="footerImg1"></a>
+                    <a href="javascript:;" class="footerImg2"></a>
+                    <a href="javascript:;" class="footerImg3"></a>
+                    <a href="javascript:;" class="footerImg4"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/register.js" charset="UTF-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        凡客VANCL-互联网快时尚品牌,服装,鞋,配饰,网上购物货到付款网站,7天无条件退货
+    </title>
+    <link rel="stylesheet" href="css/commo.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<script src="js/jquery.min.js"></script>
+
+<!-- 页面所有a标签取消了默认行为 -->
+
+<body>
+    <header>
+        <nav class="headTopArea f12">
+
+            <div class="content clearfix">
+
+                <div class="headTopRight clearfix">
+                    <div class="headTopRightGG">
+                        <a href="javascript:;" class="gonggao">网站公告</a>
+                    </div>
+                    <div class="headTopRightLink">
+                        <a href="javascript:;" class="weixin">
+                            <span></span>
+                            <div class="erweixin"></div>
+                        </a>
+                        <a href="javascript:;" class="weibo"></a>
+                    </div>
+                </div>
+
+                <div class="headTopLeft clearfix">
+                    <div class="loginArea">
+                        您好,
+                        <span id="loginUserName">欢迎光临凡客诚品！</span>
+                        <span>
+                            <a href="html/login.html" class="login" id="quietLogin">登录</a>|
+                            <a href="html/register.html" class="register" id="replaceUser">注册 </a>
+                        </span>
+                    </div>
+                    <div class="myShopArea">
+                        <a href="javascript:;">我的订单</a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <nav class="headSearch">
+            <div class="content clearfix">
+                <div class="SearchRight">
+                    <div class="Search clearfix">
+                        <input type="text" class="inputSou" placeholder="搜“日式免烫衬衫，体验与众不同,日式免烫衬衫" />
+                        <input type="button" class="souBtn" value="搜索" />
+                        <div class="buyCar f12">
+                            <div class="carText" id="toMyCar">
+                                <a href="javascript:;">购物车</a>
+                                <span class="carNum" id="carNum">(0)</span>
+                            </div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="host f12">
+                        <div>
+                            热门搜索:
+                            <a href="javascript:;">免烫衬衫</a>
+                            <a href="javascript:;">水柔棉</a>
+                            <a href="javascript:;">熊本熊</a>
+                            <a href="javascript:;">麻衬衫</a>
+                            <a href="javascript:;">帆布鞋</a>
+                            <a href="javascript:;">运动户外</a>
+                            <a href="javascript:;">家居</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="headNav">
+            <div class="content">
+                <div class="nav">
+                    <ul class="f16 clearfix navul">
+                        <li class="navli logo">
+                            <a href="javascript:;" class="nava"></a>
+                        </li>
+                        <li class="navli">
+                            <a href="javascript:;" class="nava navsy">首页</a>
+                        </li>
+                        <li class="navli">
+                            <a href="javascript:;" class="nava">衬衫</a>
+                            <ul class="navTwoUl">
+                                <span></span>
+                                <li>
+                                    <a href="javascript:;"> 免烫</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">易打理</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">休闲</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">高支</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">法兰绒</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">牛津纺</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">青年布</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">牛仔</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">麻</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">水洗棉</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">泡泡纱</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navli">
+                            <a href="# " class="nava">T恤</a>
+                            <ul class="navTwoUl">
+                                <span></span>
+                                <li>
+                                    <a href="javascript:;">水柔棉</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">长袖T恤</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">熊本熊</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">全棉冰爽</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">POLO衫</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">字</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">复刻系列</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">山鸟叔</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">小宇宙</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">电影台词</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">科学怪人</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">运动T恤</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">花花公子</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navli">
+                            <a href="# " class="nava">卫衣</a>
+                            <ul class="navTwoUl">
+                                <span></span>
+                                <li>
+                                    <a href="javascript:;">熊本熊</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">开衫</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">连帽</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">圆领</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">水柔棉</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navli">
+                            <a href="# " class="nava">外套</a>
+                            <ul class="navTwoUl">
+                                <span></span>
+                                <li>
+                                    <a href="javascript:;">运动户外</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">皮肤衣</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">西服</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">C9设计款</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">夹克</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">nautilus</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">大衣</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">羽绒服</a>
+                                </li>
+                            </ul>
+                            <li class="navli">
+                                <a href="# " class="nava">针织衫</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">空调衫</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">棉线衫</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">羊毛衫</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navli">
+                                <a href="# " class="nava">裤装</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">沙滩裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">针织裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">休闲裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">仔裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">运动裤</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navli">
+                                <a href="# " class="nava">鞋</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">复古跑鞋</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">帆布鞋</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">休闲鞋</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navli">
+                                <a href="# " class="nava">家居配饰</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">床品套件</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">被子</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">枕</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">家居服</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">家居鞋</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">背提包</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">拉杆箱</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">皮带钱包</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">帽子</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">毛巾</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navli">
+                                <a href="# " class="nava">内衣袜品</a>
+                                <ul class="navTwoUl">
+                                    <span></span>
+                                    <li>
+                                        <a href="javascript:;">船袜</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">中筒袜</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">连裤袜</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">内衣裤</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">围巾披肩</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">童装</a>
+                                    </li>
+                                </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <article>
+        <!-- 首页轮播 -->
+        <section>
+            <div class="content">
+                <div class="banner">
+                    <ul class="bannerBox">
+                        <li style="z-index: 6">
+                            <a href="javascript:;">
+                                <img src="images/1200-600-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li style="z-index: 5">
+                            <a href="javascript:;">
+                                <img src="images/1200-600-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li style="z-index: 4">
+                            <a href="javascript:;">
+                                <img src="images/1200-600-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li style="z-index: 3">
+                            <a href="javascript:;">
+                                <img src="images/1200-600-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li style="z-index: 2">
+                            <a href="javascript:;">
+                                <img src="images/1200-600-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li style="z-index: 1">
+                            <a href="javascript:;">
+                                <img src="images/1200-600-6.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ol class="bannerDisc" style="z-index: 10;">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <span class="banBtnLeft" style="z-index: 10;"></span>
+                    <span class="banBtnRight" style="z-index: 10;"></span>
+                </div>
+            </div>
+        </section>
+        <!-- 充100反100，初秋推荐 -->
+        <section>
+            <div class="content">
+                <div class="activeDiv">
+                    <ul class="clearfix">
+                        <li class="activeDivC"></li>
+                        <li class="activeDivD"></li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="images/7.jpg" alt="">
+                </div>
+                <div class="activeRecom">
+                    <ul>
+                        <li class="activeA"></li>
+                        <li class="activeMore"></li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="images/7.jpg" alt="">
+                    <img src="images/7.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- 商品展示 -->
+        <section>
+            <div class="content">
+                <!-- 只是图片的商品 -->
+                <div class="productShow">
+                    <div>
+                        <ul class="clearfix" id="productShowImg">
+                            <!-- <li>
+                                <a href="javascript:;">
+                                    <img src="images/9.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="images/1g.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="images/2g.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="images/4.jpg" alt="">
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    var arr1;
+                    var str1 = '';
+                    var hrefStr = $.trim(decodeURI(decodeURI(window.location.href)).split("=")[1]);
+                    $.ajax({
+                        url: "php/index1.php",
+                        data: {},
+                        // dataType: "json",
+                        success: function (res) {
+                            if (res) {
+                                arr1 = JSON.parse(res);
+                                for (var i = 0; i < arr1.length; i++) {
+                                    str1 += `
+                                <li>
+                                    <a href="${'html/goods.html?g1id=' + (i + 1) + '?userName=' + hrefStr}">
+                                        <img src="${arr1[i]}" alt="">
+                                    </a>
+                                </li>`;
+                                }
+                                $('#productShowImg').append(str1);
+                            }
+                        }
+                    });
+                </script>
+                <!-- 空白背景隔开 -->
+                <div class="productShowKong">
+                    <img src="images/7.jpg" alt="">
+                    <img src="images/7.jpg" alt="">
+                    <h2>优选推荐</h2>
+                </div>
+                <!-- 优选推荐  -->
+                <div class="chooseYou">
+                    <ul class="clearfix" id="chooseYouFirst">
+                        <!-- <li class="chooseYouli">
+                            <a href="javascript:;">
+                                <img src="images/pc-4.01.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                        </li>
+                        <li class="chooseYouTwo">
+                            <a href="javascript:;">
+                                <img src="images/pc-srm-01.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                            <a href="javascript:;">
+                                <img src="images/pc-cx-01.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/hw.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- 优选推荐  -->
+                <div class="chooseYou">
+                    <ul class="clearfix" id="chooseYouSencod">
+                        <!-- <li class="chooseYouli">
+                            <a href="javascript:;">
+                                <img src="images/pc-njf-01.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                        </li>
+                        <li class="chooseYouTwo">
+                            <a href="javascript:;">
+                                <img src="images/wy.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                            <a href="javascript:;">
+                                <img src="images/pc-flr-03.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/pc-wt-01.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                        </li> -->
+                    </ul>
+                </div>
+                <script>
+                    var arr2;
+                    var str2 = '';
+                    var str3 = '';
+                    var hrefStr2 = $.trim(decodeURI(decodeURI(window.location.href)).split("=")[1]);
+                    $.ajax({
+                        url: "php/index2.php",
+                        data: {},
+                        success: function (res) {
+                            if (res) {
+                                arr2 = JSON.parse(res);
+                                // console.log(arr2);
+                                // direc: " 充值购买更优惠"
+                                // gid: "1"
+                                // imagesSrc: "images/pc-4.01.jpg"
+                                // style: "4.0日式免烫衬衫
+                                // "${'html/goods.html?g1id=' + (i + 1) + '?userName=' + hrefStr}"
+                                str2 += `
+                                    <li class="chooseYouli">
+                            <a href="${'html/goods.html?g2id=' + (arr2[0].g2id) + '?userName=' + hrefStr2}">
+                                <img src="${arr2[0].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr2[0].style}
+                                <span>${arr2[0].direc}</span>
+                            </h3>
+                        </li>
+                        <li class="chooseYouTwo">
+                            <a href="${'html/goods.html?g2id=' + (arr2[1].g2id) + '?userName=' + hrefStr2}">
+                                <img src="${arr2[1].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr2[1].style}
+                                <span>${arr2[1].direc}</span>
+                            </h3>
+                            <a href="${'html/goods.html?g2id=' + (arr2[2].g2id) + '?userName=' + hrefStr2}">
+                                <img src="${arr2[2].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr2[2].style}
+                                <span>${arr2[2].direc}</span>
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="${'html/goods.html?g2id=' + (arr2[3].g2id) + '?userName=' + hrefStr2}">
+                                <img src="${arr2[3].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr2[3].style}
+                                <span>${arr2[3].direc}</span>
+                            </h3>
+                        </li>`;
+
+                                $('#chooseYouFirst').append(str2);
+
+                                str3 += `
+                                    <li class="chooseYouli">
+                            <a href="${'html/goods.html?g2id=' + (arr2[4].g2id) + '?userName=' + hrefStr2}">
+                                <img src="${arr2[4].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr2[4].style}
+                                <span>${arr2[4].direc}</span>
+                            </h3>
+                        </li>
+                        <li class="chooseYouTwo">
+                            <a href="${'html/goods.html?g2id=' + (arr2[5].g2id) + '?userName=' + hrefStr2}">
+                                <img src="${arr2[5].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr2[5].style}
+                                <span>${arr2[5].direc}</span>
+                            </h3>
+                            <a href="${'html/goods.html?g2id=' + (arr2[6].g2id) + '?userName=' + hrefStr2}">
+                                <img src="${arr2[6].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr2[6].style}
+                                <span>${arr2[6].direc}</span>
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="${'html/goods.html?g2id=' + (arr2[7].g2id) + '?userName=' + hrefStr2}">
+                                <img src="${arr2[7].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr2[7].style}
+                                <span>${arr2[7].direc}</span>
+                            </h3>
+                        </li>`;
+                                $('#chooseYouSencod').append(str3);
+                            }
+                        }
+                    });
+                </script>
+
+                <!-- 空白隔开 -->
+                <div class="productShowKong">
+                    <img src="images/8.jpg" alt="">
+                    <h2>下装推荐</h2>
+                </div>
+                <!-- 下装推荐  -->
+                <div class="smallProduct">
+                    <ul class="clearfix" id="smallProductAjax">
+                        <!--  <li class="smallProductli">
+                            <a href="javascript:;">
+                                <img src="images/pc-xxk.jpg" alt="">
+                            </a>
+                            <h3>休闲裤
+                                <span>充值购买相当于 79元起</span>
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/pc-zzk.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" id="toGoods">
+                                <img src="images/pc4.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/s.jpg" alt="">
+                            </a>
+                            <h3>4.0日式免烫衬衫
+                                <span>充值购买更优惠</span>
+                            </h3>
+                        </li> -->
+                    </ul>
+                </div>
+                <script>
+                    var arr3;
+                    var str4 = '';
+                    var hrefStr3 = $.trim(decodeURI(decodeURI(window.location.href)).split("=")[1]);
+                    $.ajax({
+                        url: "php/index3.php",
+                        data: {},
+                        success: function (res) {
+                            if (res) {
+                                arr3 = JSON.parse(res);
+                                str4 = `
+                                    <li class="smallProductli">
+                            <a href="${'html/goods.html?g3id=' + (arr3[0].g3id) + '?userName=' + hrefStr3}">
+                                <img src="${arr3[0].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr3[0].style}
+                                <span>${arr3[0].direc}</span>
+                            </h3>
+                        </li>`;
+                                for (var i = 1; i < arr3.length; i++) {
+                                    str4 += `
+                                    <li>
+                            <a href="${'html/goods.html?g3id=' + (arr3[i].g3id) + '?userName=' + hrefStr3}">
+                                <img src="${arr3[i].imagesSrc}" alt="">
+                            </a>
+                            <h3>${arr3[i].style}
+                                <span>${arr3[i].direc}</span>
+                            </h3>
+                        </li>`;
+                                }
+                                $('#smallProductAjax').append(str4);
+                            }
+                        }
+                    });
+                </script>
+                <!-- 空白隔开 -->
+                <div class="productShowKong">
+                    <img src="images/7.jpg" alt="">
+                    <h2>更多精品</h2>
+                </div>
+                <!-- 更多精品1  -->
+                <div class="lifeProduct">
+                    <ul class="clearfix" id="lifeProductFirst">
+                        <!-- <li class="lifeProductli">
+                            <a href="javascript:;">
+                                <img src="images/pc-jj-01.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/pc-ny-01.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/pc-wp-01.jpg" alt="">
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- 更多精品2  -->
+                <div class="lifeProduct">
+                    <ul class="clearfix" id="lifeProductSecond">
+                        <!-- <li class="lifeProductli">
+                            <a href="javascript:;">
+                                <img src="images/pc-mj-01.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/pc-xb-01.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/pc-fbx-01.jpg" alt="">
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <script>
+                    var arr4;
+                    var str5 = '';
+                    var str6 = '';
+                    var hrefStr4 = $.trim(decodeURI(decodeURI(window.location.href)).split("=")[1]);
+                    $.ajax({
+                        url: "php/index4.php",
+                        data: {},
+                        success: function (res) {
+                            if (res) {
+                                arr4 = JSON.parse(res);
+                                str5 = `
+                                            <li class="lifeProductli">
+                                                <a href="${'html/goods.html?g4id=' + arr4[0].g4id + '?userName=' + hrefStr4}">
+                                                    <img src="${arr4[0].imagesSrc}">
+                                                </a>
+                                            </li>
+                                   `;
+                                str6 = `
+                                            <li class="lifeProductli">
+                                                <a href="${'html/goods.html?g4id=' + arr4[3].g4id + '?userName=' + hrefStr4}">
+                                                    <img src="${arr4[3].imagesSrc}">
+                                                </a>
+                                            </li>
+                                   `;
+                                for (var i = 1; i < arr4.length; i++) {
+                                    if (i < 3) {
+                                        str5 += `
+                                            <li>
+                                                <a href="${'html/goods.html?g4id=' + arr4[i].g4id + '?userName=' + hrefStr4}">
+                                                    <img src="${arr4[i].imagesSrc}">
+                                                </a>
+                                            </li>
+                                   `;
+                                    }
+                                    else if (i > 3) {
+                                        str6 += `
+                                            <li>
+                                                <a href="${'html/goods.html?g4id=' + arr4[i].g4id + '?userName=' + hrefStr4}">
+                                                    <img src="${arr4[i].imagesSrc}">
+                                                </a>
+                                            </li>
+                                   `;
+                                    }
+                                }
+                                $('#lifeProductFirst').append(str5);
+                                $('#lifeProductSecond').append(str6);
+                            }
+                        }
+                    });
+                </script>
+                <!-- 底部退货  -->
+                <div class="mainLine">
+                    <div class="mainLineFirst f14">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <p>
+                                        <img src="images/onlinecustomer.png" alt="">
+                                    </p>
+                                    <p class="onlineTime f14"> 7X9小时在线客服
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="seven">
+                                <a href="javascript:;">
+                                    <p>
+                                        <img src="images/seven.png" alt="">
+                                    </p>
+                                    <p>7天内退货</p>
+                                    <p> 购物满199元免运费</p>
+                                </a>
+                            </li>
+                            <li class="saoYiSao">
+                                <a href="javascript:;">
+                                    <p class="codeSao">
+                                        <img src="images/fanke.jpg" alt="">
+                                    </p>
+                                    <p>
+
+                                        扫描下载
+                                        <em>凡客</em>
+                                        客户端
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mainLineSed f12">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">关于凡客</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">新手指南</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">配送范围及时间</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">支付方式</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">售后服务</a>
+                            </li>
+                            <li class="mainLineSedLastli">
+                                <a href="javascript:;">帮助中心</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+    </article>
+
+    <footer>
+        <div class="content ">
+            <div class="fooetrFisrt f12">
+                <p> Copyright 2007 - 2018 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+                <p> 凡客诚品（北京）科技有限公司</p>
+            </div>
+            <div class="footerImg">
+                <div>
+                    <a href="javascript:;" class="footerImg1"></a>
+                    <a href="javascript:;" class="footerImg2"></a>
+                    <a href="javascript:;" class="footerImg3"></a>
+                    <a href="javascript:;" class="footerImg4"></a>
+                    <a href="javascript:;" class="footerImg5"></a>
+                    <a href="javascript:;" class="footerImg6">
+                        <img src="images/kexin_brand_for_others.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="content">
+        <div class="toWindos">
+            <ul>
+                <li class="downAPP"></li>
+                <li class="online"></li>
+                <li class="BlackTop"></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="js/index.js" charset="UTF-8"></script>
+</body>
+
+</html>

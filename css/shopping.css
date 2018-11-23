@@ -1,0 +1,322 @@
+@charset "UTF-8";
+/*
+*********************************   头部    ********************************
+*/
+header {
+  width: 100%;
+  margin: auto;
+}
+header a {
+  background: url(../images/index.png) no-repeat;
+}
+header .headTopArea {
+  width: 100%;
+  margin: auto;
+  line-height: 32px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+header .headTopArea .headTopRight {
+  float: right;
+  margin: 7px 0px 0 0px;
+}
+header .headTopArea .headTopRight .headTopRightGG {
+  width: 70px;
+  line-height: 18px;
+  float: left;
+  background: url(../images/notice.png) no-repeat;
+}
+header .headTopArea .headTopRight .headTopRightGG .gonggao {
+  width: 55px;
+  float: left;
+  padding-left: 26px;
+  background-position: 70px 20px;
+  text-align: left;
+  color: #808080;
+}
+header .headTopArea .headTopRight .headTopRightLink {
+  float: right;
+  margin-left: 10px;
+}
+header .headTopArea .headTopRight .headTopRightLink .weixin {
+  float: left;
+  background-position: -25px -25px;
+  width: 16px;
+  height: 20px;
+  position: relative;
+}
+header .headTopArea .headTopRight .headTopRightLink .weixin .erweixin {
+  display: none;
+  width: 148px;
+  height: 169px;
+  z-index: 999;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+  background-image: url(../images/weixin.png);
+  position: absolute;
+  top: 26px;
+  right: 0;
+}
+header .headTopArea .headTopRight .headTopRightLink .weixin:hover .erweixin {
+  display: block;
+}
+header .headTopArea .headTopRight .headTopRightLink .weibo {
+  float: left;
+  background-position: -50px -25px;
+  width: 16px;
+  height: 20px;
+  margin-left: 2px;
+}
+header .headTopArea .headTopLeft {
+  float: right;
+  letter-spacing: 1px;
+}
+header .headTopArea .headTopLeft .loginArea {
+  float: left;
+  color: #808080;
+}
+header .headTopArea .headTopLeft .loginArea span {
+  color: #808080;
+  display: inline-block;
+  width: 117px;
+  height: 16px;
+  margin-left: 10px;
+  text-align: center;
+  /*
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  */
+}
+header .headTopArea .headTopLeft .loginArea .login {
+  color: #808080;
+  background-position: 100px 0px;
+  display: inline-block;
+  width: 53px;
+  line-height: 16px;
+  text-align: left;
+}
+header .headTopArea .headTopLeft .loginArea .register {
+  color: #808080;
+  background-position: 100px 0px;
+  display: inline-block;
+  text-align: right;
+  width: 53px;
+  line-height: 16px;
+}
+header .headTopArea .headTopLeft .myShopArea {
+  float: left;
+  margin: 0 13px;
+}
+header .headTopArea .headTopLeft .myShopArea a {
+  color: #808080;
+  background-position: 100px 0px;
+}
+
+/*
+**************************  主体    ************************************
+*/
+article {
+  width: 100%;
+  margin: 10px auto;
+}
+article .myCar {
+  width: 100%;
+  margin-top: 30px;
+}
+article .myCar .myCarImg {
+  font-size: 18px;
+  line-height: 38px;
+}
+article .myCar .myCarNotie {
+  color: #a10000;
+}
+article .myCar .myCarNotie span {
+  color: #808080;
+}
+article .shoppingShow {
+  background-color: #F8F8F8;
+  margin-top: 10px;
+}
+article .shoppingShow .tab {
+  border-spacing: 15px;
+}
+article .shoppingShow .tab thead .bar-title {
+  width: 90px;
+}
+article .shoppingShow .tab thead .track {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+article .shoppingShow .tab tbody {
+  text-align: center;
+}
+article .shoppingShow .tab tbody a {
+  color: #808080;
+}
+article .shoppingShow .tab tbody .GidNo {
+  opacity: 0;
+}
+article .shoppingShow .tab tbody .bar input {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+article .shoppingShow .tab tbody .sMun {
+  padding: 10px;
+}
+article .shoppingShow .tab tbody .sMun .track {
+  display: inline-block;
+  width: 20px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 16px;
+}
+article .shoppingShow .tab tbody .sMun .sMunShow {
+  width: 30px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+article .shoppingShow .tab tbody .sMun .increase {
+  display: inline-block;
+  width: 20px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  color: #333;
+}
+article .shoppingShow .tab tbody .operate a {
+  color: #a10000;
+}
+article .NoShop {
+  display: none;
+  background-color: #F8F8F8;
+  margin-top: 20px;
+  width: 100%;
+  line-height: 200px;
+  text-align: center;
+  font-size: 50px;
+}
+article .NoLogin {
+  display: none;
+  background-color: #F8F8F8;
+  margin-top: 20px;
+  width: 100%;
+  line-height: 200px;
+  text-align: center;
+  font-size: 50px;
+}
+article .myCarShopping {
+  width: 100%;
+}
+article .myCarShopping .bar {
+  margin: 10px 0 0 50px;
+}
+article .myCarShopping .bar input {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: left;
+}
+article .myCarShopping .bar a {
+  margin-left: 10px;
+  color: #a10000;
+}
+article .myCarShopping .bar span {
+  margin-left: 10px;
+}
+article .myCarShopping .summary {
+  margin: 10px 0 0 35px;
+}
+article .myCarShopping .btn-panel {
+  float: right;
+}
+article .myCarShopping .btn-panel .shoppingIng {
+  background-color: #808080;
+  display: inline-block;
+  color: white;
+  height: 37px;
+  line-height: 37px;
+  margin-right: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+article .myCarShopping .btn-panel .shoppingEnd {
+  background-color: #a10000;
+  display: inline-block;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 20px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*
+********************   底部footer  **********************
+*/
+footer {
+  width: 100%;
+  margin: 10px auto;
+  border-top: 1px solid #333;
+}
+footer .fooetrFisrt {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  color: #3e3a39;
+}
+footer .fooetrFisrt p {
+  line-height: 25px;
+}
+footer .footerImg {
+  width: 100%;
+  margin: 0 auto;
+}
+footer .footerImg div {
+  margin: 20px 0 10px 200px;
+  padding-bottom: 60px;
+}
+footer .footerImg div a {
+  background: url(../images/index2.png) no-repeat;
+  display: block;
+  float: left;
+  margin-left: 21px;
+}
+footer .footerImg div .footerImg1 {
+  width: 113px;
+  height: 42px;
+  background-position: 0px -580px;
+}
+footer .footerImg div .footerImg2 {
+  width: 156px;
+  height: 45px;
+  background-position: 0px -629px;
+}
+footer .footerImg div .footerImg3 {
+  width: 96px;
+  height: 42px;
+  background-position: 0px -675px;
+}
+footer .footerImg div .footerImg4 {
+  width: 96px;
+  height: 42px;
+  background-position: -100px -675px;
+}
+footer .footerImg div .footerImg5 {
+  width: 50px;
+  height: 42px;
+  background-position: -200px -675px;
+}
+footer .footerImg div .footerImg6 {
+  width: 120px;
+  height: 40px;
+}
+footer .footerImg div .footerImg6 img {
+  width: 100%;
+  height: 100%;
+}

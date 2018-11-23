@@ -1,0 +1,514 @@
+@charset "UTF-8";
+/*
+******************    头部header**********************
+*/
+header {
+  width: 100%;
+  margin: auto;
+}
+header a {
+  background: url(../images/index.png) no-repeat;
+}
+header .headTopArea {
+  width: 100%;
+  margin: auto;
+  line-height: 32px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+header .headTopArea .headTopRight {
+  float: right;
+  margin: 7px 0px 0 0px;
+}
+header .headTopArea .headTopRight .headTopRightGG {
+  width: 70px;
+  line-height: 18px;
+  float: left;
+  background: url(../images/notice.png) no-repeat;
+}
+header .headTopArea .headTopRight .headTopRightGG .gonggao {
+  width: 55px;
+  float: left;
+  padding-left: 26px;
+  background-position: 70px 20px;
+  text-align: left;
+  color: #808080;
+}
+header .headTopArea .headTopRight .headTopRightLink {
+  float: right;
+  margin-left: 10px;
+}
+header .headTopArea .headTopRight .headTopRightLink .weixin {
+  float: left;
+  background-position: -25px -25px;
+  width: 16px;
+  height: 20px;
+  position: relative;
+}
+header .headTopArea .headTopRight .headTopRightLink .weixin .erweixin {
+  display: none;
+  width: 148px;
+  height: 169px;
+  z-index: 999;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+  background-image: url(../images/weixin.png);
+  position: absolute;
+  top: 26px;
+  right: 0;
+}
+header .headTopArea .headTopRight .headTopRightLink .weixin:hover .erweixin {
+  display: block;
+}
+header .headTopArea .headTopRight .headTopRightLink .weibo {
+  float: left;
+  background-position: -50px -25px;
+  width: 16px;
+  height: 20px;
+  margin-left: 2px;
+}
+header .headTopArea .headTopLeft {
+  float: right;
+  letter-spacing: 1px;
+}
+header .headTopArea .headTopLeft .loginArea {
+  float: left;
+  color: #808080;
+}
+header .headTopArea .headTopLeft .loginArea span {
+  color: #808080;
+  display: inline-block;
+  width: 117px;
+  height: 16px;
+  margin-left: 10px;
+  text-align: center;
+  /*
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  */
+}
+header .headTopArea .headTopLeft .loginArea .login {
+  color: #808080;
+  background-position: 100px 0px;
+  display: inline-block;
+  width: 53px;
+  line-height: 16px;
+  text-align: left;
+}
+header .headTopArea .headTopLeft .loginArea .register {
+  color: #808080;
+  background-position: 100px 0px;
+  display: inline-block;
+  text-align: right;
+  width: 53px;
+  line-height: 16px;
+}
+header .headTopArea .headTopLeft .myShopArea {
+  float: left;
+  margin: 0 13px;
+}
+header .headTopArea .headTopLeft .myShopArea a {
+  color: #808080;
+  background-position: 100px 0px;
+}
+header .headSearch .SearchRight {
+  float: right;
+  margin-top: 30px;
+}
+header .headSearch .SearchRight .Search .inputSou {
+  width: 300px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+}
+header .headSearch .SearchRight .Search .souBtn {
+  width: 45px;
+  line-height: 32px;
+  color: white;
+  margin-left: -8px;
+  cursor: pointer;
+  background: #b81c22;
+}
+header .headSearch .SearchRight .Search .buyCar {
+  float: right;
+  background: #b81c22;
+  width: 100px;
+  height: 34px;
+  margin-left: 30px;
+  color: white;
+  text-align: center;
+}
+header .headSearch .SearchRight .Search .buyCar .carText {
+  margin: 10px 0 0 5px;
+}
+header .headSearch .SearchRight .Search .buyCar .carText a {
+  width: 65px;
+  float: left;
+  color: white;
+  text-align: right;
+  background-position: -160px -7px;
+}
+header .headSearch .SearchRight .Search .buyCar .carText .carNum {
+  margin-top: 10px;
+}
+header .headSearch .SearchRight .host div {
+  margin-top: 5px;
+  color: #808080;
+  margin-left: 20px;
+}
+header .headSearch .SearchRight .host div a {
+  background-position: -100px -40px;
+  color: #808080;
+  margin-left: 5px;
+}
+header .headNav .content .nav {
+  width: 100%;
+}
+header .headNav .content .nav .navul {
+  width: 100%;
+}
+header .headNav .content .nav .navul .navli {
+  float: left;
+  border-right: 1px solid #333;
+  text-align: center;
+  vertical-align: middle;
+  vertical-align: middle;
+  margin-top: 40px;
+  position: relative;
+}
+header .headNav .content .nav .navul .navli .nava {
+  color: #727171;
+  display: block;
+  width: 100px;
+  height: 100%;
+  background-position: 10px 50px;
+}
+header .headNav .content .nav .navul .navli:last-child {
+  border-right: none;
+}
+header .headNav .content .nav .navul .navli:nth-child(1) {
+  border-bottom: none;
+}
+header .headNav .content .nav .navul .logo {
+  border: none;
+  margin-top: 10px;
+}
+header .headNav .content .nav .navul .logo .nava {
+  background-position: 0px -60px;
+  width: 180px;
+  height: 50px;
+  text-align: right;
+  margin-top: 10px;
+}
+header .headNav .content .nav .navul .navTwoUl {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 10000;
+  background-color: white;
+  display: none;
+}
+header .headNav .content .nav .navul .navTwoUl li {
+  margin: 10px 0;
+}
+header .headNav .content .nav .navul .navTwoUl li a {
+  color: #727171;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: 100px 50px;
+}
+header .headNav .content .nav .navul .navTwoUl span {
+  display: block;
+  height: 5px;
+  width: 101px;
+  margin-top: 10px;
+}
+header .headNav .content .nav .navul .navTwoUl li:hover a {
+  color: #b81c22;
+}
+header .headNav .content .nav .navul .navli:hover .navTwoUl {
+  display: block;
+}
+header .headNav .content .nav .navul .navli:hover span {
+  background-color: #b81c22;
+}
+
+/*
+************ 主体 *******************
+*/
+article {
+  width: 100%;
+  margin: auto;
+}
+article .breadNav {
+  width: 100%;
+  margin: 25px auto;
+}
+article .breadNav a {
+  color: #333;
+}
+article .danpinTitleTab {
+  border-bottom: 1px solid #e5e6e6;
+  margin: 10px auto;
+  padding: 10px 0;
+}
+article .danpinTitleTab h2 {
+  float: left;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+  padding: 0 10px;
+}
+article .danpinTitleTab h2 span {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #a10000;
+}
+article .danpinTitleTab .ProductSubnav {
+  float: right;
+}
+article .danpinTitleTab .ProductSubnav li {
+  float: left;
+  margin-left: 10px;
+  color: #808080;
+}
+article .danpinTitleTab .ProductSubnav li a {
+  color: #808080;
+  padding: 0 10px;
+  font-size: 14px;
+}
+article .mainInfo {
+  position: relative;
+}
+article .mainInfo .smallImg {
+  color: #333;
+  width: 80px;
+  height: 400px;
+  margin-top: 20px;
+  float: left;
+}
+article .mainInfo .smallImg ul li {
+  width: 68px;
+  height: 68px;
+  border: 1px solid #B4B4B4;
+  margin-top: 10px;
+}
+article .mainInfo .smallImg ul li span {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/11111.jpg) no-repeat;
+}
+article .mainInfo .smallImg ul .track2 {
+  border: 1px solid #a10000;
+}
+article .mainInfo .smallImg ul .track2 span {
+  background-position: 0px -68px;
+}
+article .mainInfo .smallImg ul .track3 span {
+  background-position: 0px -136px;
+}
+article .mainInfo .danpinColCenter {
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin: 30px 0 20px 80px;
+  border: 1px solid #e5e6e6;
+  position: relative;
+}
+article .mainInfo .danpinColCenter span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 160px;
+  height: 160px;
+  background: #002;
+  opacity: 0.7;
+  cursor: pointer;
+  display: none;
+}
+article .mainInfo .showBigImg {
+  position: absolute;
+  left: 570px;
+  top: -40px;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  border: 1px solid #333;
+  z-index: 9;
+  display: none;
+}
+article .mainInfo .showBigImg img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1200px;
+}
+article .mainInfo .danpinRight {
+  float: left;
+  margin: 30px 0 0 80px;
+}
+article .mainInfo .danpinRight .danpinRightTop .span1 {
+  color: #A10000;
+}
+article .mainInfo .danpinRight .danpinRightTop .span1 strong {
+  font-size: 24px;
+}
+article .mainInfo .danpinRight .danpinRightTop a {
+  color: #a10000;
+  font-size: 12px;
+  margin-left: 10px;
+}
+article .mainInfo .danpinRight .danpinRightColor, article .mainInfo .danpinRight .danpinRightSize {
+  width: 100%;
+  margin-top: 40px;
+  color: #666666;
+  font-size: 12px;
+}
+article .mainInfo .danpinRight .danpinRightColor p, article .mainInfo .danpinRight .danpinRightSize p {
+  float: left;
+}
+article .mainInfo .danpinRight .danpinRightColor ul, article .mainInfo .danpinRight .danpinRightSize ul {
+  float: left;
+}
+article .mainInfo .danpinRight .danpinRightColor ul li, article .mainInfo .danpinRight .danpinRightSize ul li {
+  float: left;
+  border: 1px solid #B4B4B4;
+  margin-right: 10px;
+}
+article .mainInfo .danpinRight .danpinRightColor ul li .span1, article .mainInfo .danpinRight .danpinRightSize ul li .span1 {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url(../images/s11.jpg) no-repeat;
+}
+article .mainInfo .danpinRight .danpinRightColor ul li .span2, article .mainInfo .danpinRight .danpinRightSize ul li .span2 {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-image: url(../images/s12.jpg);
+}
+article .mainInfo .danpinRight .danpinRightColor ul .active, article .mainInfo .danpinRight .danpinRightSize ul .active {
+  border-color: #e47676;
+}
+article .mainInfo .danpinRight .danpinRightColor ul .noneGoods, article .mainInfo .danpinRight .danpinRightSize ul .noneGoods {
+  position: relative;
+}
+article .mainInfo .danpinRight .danpinRightColor ul .noneGoods p, article .mainInfo .danpinRight .danpinRightSize ul .noneGoods p {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  opacity: 0.7;
+  width: 62px;
+  line-height: 41px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: #666666;
+}
+article .mainInfo .danpinRight .danpinRightSize li {
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+article .mainInfo .danpinRight .danpinRightSize .active {
+  background-color: #e47676;
+}
+article .mainInfo .danpinRight .danpinRightSum {
+  width: 100%;
+  margin-top: 40px;
+  color: #666666;
+  font-size: 12px;
+}
+article .mainInfo .danpinRight .danpinRightSum p {
+  float: left;
+}
+article .mainInfo .danpinRight .danpinRightSum select {
+  float: left;
+  width: 50px;
+}
+article .mainInfo .danpinRight .danpinRightBuy {
+  width: 100%;
+  margin-top: 40px;
+}
+article .mainInfo .danpinRight .danpinRightBuy a {
+  display: inline-block;
+  border: solid 1px #b71b21;
+  background: #F7ABAF;
+  width: 170px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  margin-right: 13px;
+}
+article .mainInfo .danpinRight .danpinRightBuy .inCar {
+  background: #b71b21;
+}
+
+/*
+********************   底部footer  **********************
+*/
+footer {
+  width: 100%;
+  margin: 10px auto;
+  border-top: 1px solid #333;
+}
+footer .fooetrFisrt {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  color: #3e3a39;
+}
+footer .fooetrFisrt p {
+  line-height: 25px;
+}
+footer .footerImg {
+  width: 100%;
+  margin: 0 auto;
+}
+footer .footerImg div {
+  margin: 20px 0 10px 200px;
+  padding-bottom: 60px;
+}
+footer .footerImg div a {
+  background: url(../images/index2.png) no-repeat;
+  display: block;
+  float: left;
+  margin-left: 21px;
+}
+footer .footerImg div .footerImg1 {
+  width: 113px;
+  height: 42px;
+  background-position: 0px -580px;
+}
+footer .footerImg div .footerImg2 {
+  width: 156px;
+  height: 45px;
+  background-position: 0px -629px;
+}
+footer .footerImg div .footerImg3 {
+  width: 96px;
+  height: 42px;
+  background-position: 0px -675px;
+}
+footer .footerImg div .footerImg4 {
+  width: 96px;
+  height: 42px;
+  background-position: -100px -675px;
+}
+footer .footerImg div .footerImg5 {
+  width: 50px;
+  height: 42px;
+  background-position: -200px -675px;
+}
+footer .footerImg div .footerImg6 {
+  width: 120px;
+  height: 40px;
+}
+footer .footerImg div .footerImg6 img {
+  width: 100%;
+  height: 100%;
+}
